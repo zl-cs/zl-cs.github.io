@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stream computing | Academic</title>
+    <link>https://zl-cs.github.io/tag/stream-computing/</link>
+      <atom:link href="https://zl-cs.github.io/tag/stream-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>stream computing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Sep 2021 17:00:38 +0800</lastBuildDate>
+    <image>
+      <url>https://zl-cs.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>stream computing</title>
+      <link>https://zl-cs.github.io/tag/stream-computing/</link>
+    </image>
+    
+    <item>
+      <title>AuTraScale: An Automated and Transfer Learning Solution for Streaming System Auto-Scaling</title>
+      <link>https://zl-cs.github.io/publication/c-ipdps-autrascale/</link>
+      <pubDate>Mon, 13 Sep 2021 17:00:38 +0800</pubDate>
+      <guid>https://zl-cs.github.io/publication/c-ipdps-autrascale/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
