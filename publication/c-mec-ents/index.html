@@ -33,10 +33,10 @@
   
     
   
-  <meta name="description" content="I am a Ph.D. candidate in Emerging Parallel Computing Center (EPCC), the Department of Computer Science and Engineering, Shanghai Jiao Tong University. My supervisor is Prof. Minyi Guo and Dr. Wenli Zheng." />
+  <meta name="description" content="Collaborative edge computing (CEC) is an emerging paradigm enabling sharing of the coupled data, computation, and networking resources among heterogeneous geo-distributed edge nodes. Recently, there has been a trend to orchestrate and schedule containerized application workloads in CEC, while Kubernetes has become the de-facto standard broadly adopted by the industry and academia. However, Kubernetes is not preferable for CEC because its design is not dedicated to edge computing and neglects the unique features of edge nativeness. More specifically, Kubernetes primarily ensures resource provision of workloads while neglecting the performance requirements of edge-native applications, such as throughput and latency. Furthermore, Kubernetes neglects the inner dependencies of edge-native applications and fails to consider data locality and networking resources, leading to inferior performance. In this work, we design and develop ENTS, the first edge-native task scheduling system, to manage the distributed edge resources and facilitate efficient task scheduling to optimize the performance of edge-native applications. ENTS extends Kubernetes with the unique ability to collaboratively schedule computation and networking resources by comprehensively considering job profile and resource status. We showcase the superior efficacy of ENTS with a case study on data streaming applications. We mathematically formulate a joint task allocation and flow scheduling problem that maximizes the job throughput. We design two novel online scheduling algorithms to optimally decide the task allocation, bandwidth allocation, and flow routing policies. The extensive experiments on a real-world edge video analytics application show that ENTS achieves 43% -220% higher average job throughput compared with the state-of-the-art." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://zl-cs.github.io/authors/admin/backup/" />
+  <link rel="alternate" hreflang="en-us" href="https://zl-cs.github.io/publication/c-mec-ents/" />
 
   
 
@@ -276,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://zl-cs.github.io/authors/admin/backup/" />
+  <link rel="canonical" href="https://zl-cs.github.io/publication/c-mec-ents/" />
 
   
   
@@ -293,34 +293,80 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Academic" />
-  <meta property="og:url" content="https://zl-cs.github.io/authors/admin/backup/" />
-  <meta property="og:title" content="Zhang Liang | Academic" />
-  <meta property="og:description" content="I am a Ph.D. candidate in Emerging Parallel Computing Center (EPCC), the Department of Computer Science and Engineering, Shanghai Jiao Tong University. My supervisor is Prof. Minyi Guo and Dr. Wenli Zheng." /><meta property="og:image" content="https://zl-cs.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://zl-cs.github.io/publication/c-mec-ents/" />
+  <meta property="og:title" content="ENTS: An Edge-native Task Scheduling System for Collaborative Edge Computing | Academic" />
+  <meta property="og:description" content="Collaborative edge computing (CEC) is an emerging paradigm enabling sharing of the coupled data, computation, and networking resources among heterogeneous geo-distributed edge nodes. Recently, there has been a trend to orchestrate and schedule containerized application workloads in CEC, while Kubernetes has become the de-facto standard broadly adopted by the industry and academia. However, Kubernetes is not preferable for CEC because its design is not dedicated to edge computing and neglects the unique features of edge nativeness. More specifically, Kubernetes primarily ensures resource provision of workloads while neglecting the performance requirements of edge-native applications, such as throughput and latency. Furthermore, Kubernetes neglects the inner dependencies of edge-native applications and fails to consider data locality and networking resources, leading to inferior performance. In this work, we design and develop ENTS, the first edge-native task scheduling system, to manage the distributed edge resources and facilitate efficient task scheduling to optimize the performance of edge-native applications. ENTS extends Kubernetes with the unique ability to collaboratively schedule computation and networking resources by comprehensively considering job profile and resource status. We showcase the superior efficacy of ENTS with a case study on data streaming applications. We mathematically formulate a joint task allocation and flow scheduling problem that maximizes the job throughput. We design two novel online scheduling algorithms to optimally decide the task allocation, bandwidth allocation, and flow routing policies. The extensive experiments on a real-world edge video analytics application show that ENTS achieves 43% -220% higher average job throughput compared with the state-of-the-art." /><meta property="og:image" content="https://zl-cs.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://zl-cs.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
+      <meta
+        property="article:published_time"
+        content="1970-01-01T08:33:41&#43;08:00"
+      />
     
+    <meta property="article:modified_time" content="2022-09-13T17:00:38&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://zl-cs.github.io/publication/c-mec-ents/"
+  },
+  "headline": "ENTS: An Edge-native Task Scheduling System for Collaborative Edge Computing",
+  
+  "datePublished": "1970-01-01T08:33:41+08:00",
+  "dateModified": "2022-09-13T17:00:38+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Mingjin Zhang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://zl-cs.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Collaborative edge computing (CEC) is an emerging paradigm enabling sharing of the coupled data, computation, and networking resources among heterogeneous geo-distributed edge nodes. Recently, there has been a trend to orchestrate and schedule containerized application workloads in CEC, while Kubernetes has become the de-facto standard broadly adopted by the industry and academia. However, Kubernetes is not preferable for CEC because its design is not dedicated to edge computing and neglects the unique features of edge nativeness. More specifically, Kubernetes primarily ensures resource provision of workloads while neglecting the performance requirements of edge-native applications, such as throughput and latency. Furthermore, Kubernetes neglects the inner dependencies of edge-native applications and fails to consider data locality and networking resources, leading to inferior performance. In this work, we design and develop ENTS, the first edge-native task scheduling system, to manage the distributed edge resources and facilitate efficient task scheduling to optimize the performance of edge-native applications. ENTS extends Kubernetes with the unique ability to collaboratively schedule computation and networking resources by comprehensively considering job profile and resource status. We showcase the superior efficacy of ENTS with a case study on data streaming applications. We mathematically formulate a joint task allocation and flow scheduling problem that maximizes the job throughput. We design two novel online scheduling algorithms to optimally decide the task allocation, bandwidth allocation, and flow routing policies. The extensive experiments on a real-world edge video analytics application show that ENTS achieves 43% -220% higher average job throughput compared with the state-of-the-art."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
-
-  
 
 
-
-
-
-  <title>Zhang Liang | Academic</title>
+  <title>ENTS: An Edge-native Task Scheduling System for Collaborative Edge Computing | Academic</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7a3c657cc364bddca80589f585dcbd43" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="dc3d1d1071874f1c516d11f2c816948e" >
 
   
   
@@ -730,7 +776,16 @@
   </div>
 
   <div class="page-body">
-    <article class="article">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -751,7 +806,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Zhang Liang</h1>
+  <h1>ENTS: An Edge-native Task Scheduling System for Collaborative Edge Computing</h1>
 
   
 
@@ -763,6 +818,21 @@
 
   
   
+  
+  
+  <div>
+    
+
+  <span >
+      Mingjin Zhang</span>, <span >
+      Jiannong Cao</span>, <span >
+      Lei Yang</span>, <span class="author-highlighted">
+      Zhang Liang</span>, <span >
+      Yuvraj Sahni</span>, <span >
+      Shan Jiang</span>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -770,7 +840,7 @@
     
       
     
-    Jan 1, 0001
+    September 2022
   </span>
   
 
@@ -787,6 +857,10 @@
 
   
   
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/edge-computing/">edge computing</a></span>
+  
 
 </div>
 
@@ -794,6 +868,52 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publication/c-mec-ents/C-MEC-ENTS.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/c-mec-ents/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/SEC54971.2022.00019" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
 
 
   
@@ -803,12 +923,47 @@
 
   <div class="article-container">
 
-    <div class="article-style">
-      <p>I am a Ph.D. candidate in Emerging Parallel Computing Center (<a href="http://epcc.sjtu.edu.cn/" target="_blank" rel="noopener">EPCC</a>), the Department of Computer Science and Engineering, Shanghai Jiao Tong University. My supervisor is <a href="https://cs.sjtu.edu.cn/~guo-my/" target="_blank" rel="noopener">Prof. Minyi Guo</a> and Dr. Wenli Zheng. My research interests include stream computing, resource scheduling and approximate computing, for large-scale distributed systems and Internet of Things (IoT).</p>
-<p>
-  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/uploads/demo_resume.pdf" target="_blank">resumé</a>.</p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Collaborative edge computing (CEC) is an emerging paradigm enabling sharing of the coupled data, computation, and networking resources among heterogeneous geo-distributed edge nodes. Recently, there has been a trend to orchestrate and schedule containerized application workloads in CEC, while Kubernetes has become the de-facto standard broadly adopted by the industry and academia. However, Kubernetes is not preferable for CEC because its design is not dedicated to edge computing and neglects the unique features of edge nativeness. More specifically, Kubernetes primarily ensures resource provision of workloads while neglecting the performance requirements of edge-native applications, such as throughput and latency. Furthermore, Kubernetes neglects the inner dependencies of edge-native applications and fails to consider data locality and networking resources, leading to inferior performance. In this work, we design and develop ENTS, the first edge-native task scheduling system, to manage the distributed edge resources and facilitate efficient task scheduling to optimize the performance of edge-native applications. ENTS extends Kubernetes with the unique ability to collaboratively schedule computation and networking resources by comprehensively considering job profile and resource status. We showcase the superior efficacy of ENTS with a case study on data streaming applications. We mathematically formulate a joint task allocation and flow scheduling problem that maximizes the job throughput. We design two novel online scheduling algorithms to optimally decide the task allocation, bandwidth allocation, and flow routing policies. The extensive experiments on a real-world edge video analytics application show that ENTS achieves 43% -220% higher average job throughput compared with the state-of-the-art.</p>
+    
 
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">2022 IEEE/ACM 7th Symposium on Edge Computing (SEC)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -816,6 +971,12 @@
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/edge-computing/">edge computing</a>
+  
+</div>
 
 
 
@@ -830,7 +991,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://zl-cs.github.io/authors/admin/backup/&amp;text=Zhang%20Liang" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://zl-cs.github.io/publication/c-mec-ents/&amp;text=ENTS:%20An%20Edge-native%20Task%20Scheduling%20System%20for%20Collaborative%20Edge%20Computing" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -843,7 +1004,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://zl-cs.github.io/authors/admin/backup/&amp;t=Zhang%20Liang" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://zl-cs.github.io/publication/c-mec-ents/&amp;t=ENTS:%20An%20Edge-native%20Task%20Scheduling%20System%20for%20Collaborative%20Edge%20Computing" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -856,7 +1017,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Zhang%20Liang&amp;body=https://zl-cs.github.io/authors/admin/backup/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=ENTS:%20An%20Edge-native%20Task%20Scheduling%20System%20for%20Collaborative%20Edge%20Computing&amp;body=https://zl-cs.github.io/publication/c-mec-ents/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -869,7 +1030,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://zl-cs.github.io/authors/admin/backup/&amp;title=Zhang%20Liang" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://zl-cs.github.io/publication/c-mec-ents/&amp;title=ENTS:%20An%20Edge-native%20Task%20Scheduling%20System%20for%20Collaborative%20Edge%20Computing" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -882,7 +1043,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Zhang%20Liang%20https://zl-cs.github.io/authors/admin/backup/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=ENTS:%20An%20Edge-native%20Task%20Scheduling%20System%20for%20Collaborative%20Edge%20Computing%20https://zl-cs.github.io/publication/c-mec-ents/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -895,7 +1056,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://zl-cs.github.io/authors/admin/backup/&amp;title=Zhang%20Liang" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://zl-cs.github.io/publication/c-mec-ents/&amp;title=ENTS:%20An%20Edge-native%20Task%20Scheduling%20System%20for%20Collaborative%20Edge%20Computing" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -915,6 +1076,25 @@
 
   
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
 
 
 
@@ -977,6 +1157,19 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -990,13 +1183,16 @@
 
 
 
+
+  
+  
 
 
 
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">
