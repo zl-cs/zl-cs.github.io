@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a lecturer at the School of Computer Science and Technology, Donghua University, Shanghai, China. I am also working in [Innovation of Cyber Security Lab (ICS)](https://dhuicslab.github.io/) which led by Prof. Chang Shan. 
+I am a lecturer at the School of Computer Science and Technology, Donghua University, Shanghai, China. I am also working in [Innovation of Cyber Security Lab (ICS)](https://dhuicslab.github.io/). 
 
 Research Interests
 ======
@@ -25,7 +25,7 @@ Educational Background
 ======
 - 2018.9-2024.9, **Ph.D.**, Computer Science and Technology, Shanghai Jiao Tong University(SJTU), Shanghai, China
     - [LION lab](https://lion.sjtu.edu.cn/) in [EPCC](http://epcc.sjtu.edu.cn/)
-    - Co-advisor: Prof. [Minyi Guo](https://cs.sjtu.edu.cn/~guo-my/) and Prof. [hongzi Zhu](https://lion.sjtu.edu.cn/member/memberDetail?id=12)
+    - Co-advisor: Prof. [Minyi Guo](https://cs.sjtu.edu.cn/~guo-my/) and Prof. [Hongzi Zhu](https://lion.sjtu.edu.cn/member/memberDetail?id=12)
     - Selected for [Zhiyuan Honorary Doctoral Program](https://www.gs.sjtu.edu.cn/zljs/bsszyryjh.htm)
 - 2014.9-2018.9, **B.S.**, Computer Science and Technology, Northeastern University(NEU), Liaoning, China
     - Awards include:
