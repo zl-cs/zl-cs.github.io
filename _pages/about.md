@@ -9,9 +9,9 @@ redirect_from:
 
 I am a lecturer at the School of Computer Science and Technology, Donghua University, Shanghai, China. I am also working in [Innovation of Cyber Security Lab (ICS)](https://dhuicslab.github.io/) which led by Prof. Chang Shan. 
 
-Research Interests:
+Research Interests
 ======
-If you are interested in the following research areas, please feel free to contact me now! Looking forward to your communication and joining!
+(If you are interested in the following research areas, please feel free to contact me now! Looking forward to your communication and joining!)
 1. Parallel and Distributed Computing
    - Architecture designs to better support the next generation of intelligence applications such as LLM and AR/VR.
    - Algorithm designs to improve resource efficiency and task performance.
@@ -21,35 +21,37 @@ If you are interested in the following research areas, please feel free to conta
 3. DL Model Compression
    - Quantification, pruning and knowledge distillation for deep learning models including LLMs.
 
-Getting started
+Educational Background
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- 2018.9-2024.9, **Ph.D.**, Computer Science and Technology, Shanghai Jiao Tong University(SJTU), Shanghai, China
+    - [LION lab](https://lion.sjtu.edu.cn/) in [EPCC](http://epcc.sjtu.edu.cn/)
+    - Co-advisor: Prof. [Minyi Guo](https://cs.sjtu.edu.cn/~guo-my/) and Prof. [hongzi Zhu](https://lion.sjtu.edu.cn/member/memberDetail?id=12)
+    - Selected for [Zhiyuan Honorary Doctoral Program](https://www.gs.sjtu.edu.cn/zljs/bsszyryjh.htm)
+- 2014.9-2018.9, **B.S.**, Computer Science and Technology, Northeastern University(NEU), Liaoning, China
+    - Awards include:
+        * National Scholarship for Undergraduate Students (Nov 2015 and Nov 2017)
+        * Outstanding Graduates of Liaoning Province (Jan 2018)
+        * Excellent Students of Northeastern University (Dec 2015 and Dec 2016)
+        * The First-class Scholarship of Northeastern University (Oct 2015 and Oct 2016)
+        * 2016 MCM/ICM Honorable Mention (Jan 2016)
 
-Site-wide configuration
+Work Experimence
+======
+- 2024.11-Now, **Lecturer**, School of Computer Science and Technology, Donghua University, Shanghai, China
+- 2021.9-2022.12, **Research Assistant**, Hong Kong Polytechnic University
+    - [The Internet and Mobile Computing Laboratory (IMCL)](https://www4.comp.polyu.edu.hk/~labimcl/index.html) in computing department
+    - Co-Advisor: Prof. [Jiannong Cao](https://www4.comp.polyu.edu.hk/~labimcl/director.html)
+      
+Acadamic Services
+======
+
+CCF Services
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- 中国计算机学会并行与分布式计算系统专委委员
+- 中国计算机学会网络专委委员
+- 中国计算机学会体系结构专委委员
 
-Create content & metadata
+Reviewers
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Journals and conferences such as TPDS, TC, and IOTJ
 
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
