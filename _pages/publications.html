@@ -11,8 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
+{% for post in site.publications reversed %}
+      <div class="publication-content">
+        {{ post.content }}
+      </div>
+{% endfor %}
+
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -31,6 +37,9 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+-->
+
+
 
 
 
