@@ -1,0 +1,4 @@
+---
+collection: publications
+category: conferences
+---
