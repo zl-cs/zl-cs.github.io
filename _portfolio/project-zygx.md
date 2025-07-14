@@ -1,11 +1,3 @@
-<!--
----
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
----
--->
-
 ---
 title: "面向大模型推理服务的边缘资源管理与任务调度研究"
 excerpt: "中央高校自由探索项目，主持，2025-2028，10万元"
@@ -21,4 +13,12 @@ collection: portfolio
 ## 横向
 1. 基于多模态大模型的安卓端音视频聊天助手
 2. 基于深度学习模型的书法辅助学习APP
+-->
+
+<!--
+---
+title: "Portfolio item number 1"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
 -->
