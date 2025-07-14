@@ -9,9 +9,6 @@ author_profile: true
 
 
 {% for post in site.portfolio %}
-  <!-- {% include archive-single.html %} -->
-   <div class="portfolio-content">
-        {{ post.content }}
-   </div>
+  {% include archive-single.html %} 
 {% endfor %}
 
