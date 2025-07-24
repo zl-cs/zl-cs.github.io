@@ -13,13 +13,13 @@ Research Interests
 ======
 (If you are interested in the following research areas, please feel free to contact me now! Looking forward to your communication and joining!)
 1. Parallel and Distributed Computing
-   - Architecture designs to better support the next generation of intelligence applications such as LLM and AR/VR.
+   - Architecture designs to support better the next generation of intelligence applications, such as LLM and AR/VR.
    - Algorithm designs to improve resource efficiency and task performance.
 2. Cloud-edge Intelligence
-   - Tool/middleware designs and developments to enhance the intelligence of cloud/edge computing systems.
+   - Designs and development of tools/middlewares to enhance the intelligence of cloud/edge computing systems.
    - Algorithm designs to improve the performance of Cloud-Edge-End collaborative computing.
 3. DL Model Compression
-   - Quantification, pruning and knowledge distillation for deep learning models including LLMs.
+   - Quantification, pruning, and knowledge distillation for deep learning models, including LLMs.
 
 Educational Background
 ======
