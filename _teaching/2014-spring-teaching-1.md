@@ -14,9 +14,9 @@ Students
 
 Undergraduates
 ------
-Jiacheng Dai (代佳诚), 2022级软件工程
-Dawei Gao (高大为)，2022级智能科学
-Zheyi Zhang (张哲溢)，2022级智能科学
+Jiacheng Dai (代佳诚), 2022级软件工程 
+Dawei Gao (高大为)，2022级智能科学 
+Zheyi Zhang (张哲溢)，2022级智能科学 
 
 Master students
 ------
