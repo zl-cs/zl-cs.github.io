@@ -17,5 +17,5 @@ category: conferences
 
 [<span style="color:#FF0000">SEC'22</span>] Mingjin Zhang, Jiannong Cao, Lei Yang, **Liang Zhang**, Yuvraj Sahni, Shan Jiang，[*<u>Ents: An edge-native task scheduling system for collaborative edge computing</u>*](https://ieeexplore.ieee.org/abstract/document/9996714),  IEEE/ACM 7th Symposium on Edge Computing (SEC), 2022. 
 
-[<span style="color:#FF0000">IPDPS'21</span>] **Liang Zhang**, Wenli Zheng, Chao Li, Yao Shen, Minyi Guo，[*<u>TAutrascale: an automated and transfer learning solution for streaming system auto-scaling</u>*](https://ieeexplore.ieee.org/abstract/document/9460552), 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 2021. 
+[<span style="color:#FF0000">IPDPS'21</span>] **Liang Zhang**, Wenli Zheng, Chao Li, Yao Shen, Minyi Guo，[*<u>Autrascale: an automated and transfer learning solution for streaming system auto-scaling</u>*](https://ieeexplore.ieee.org/abstract/document/9460552), 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 2021. 
 
