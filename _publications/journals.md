@@ -13,6 +13,6 @@ category: manuscripts
 
 [<span style="color:#FF0000">TMC'24</span>] Zhenxi Wang, Hongzi Zhu, Yunxiang Cai, Quan Liu, Shan Chang, **Liang Zhang**, Minyi Guo, [*<u>Enabling Long Range Point Cloud Registration in Vehicular Networks via Muti-hop Relays</u>*](https://ieeexplore.ieee.org/abstract/document/10643366), IEEE Transactions on Mobile Computing, 2024.
 
-[<span style="color:#FF0000">计算机学报'21</span>] 蔡晓晴,邓尧,**张亮**,史久琛,陈全,郑文立,刘志强,龙宇,王堃,李超,过敏意, [*<u>区块链原理及其核心技术</u>*](), 计算机学报, 2021. 
+[<span style="color:#FF0000">计算机学报'21, 获评2020-2024优秀论文奖</span>] 蔡晓晴,邓尧,**张亮**,史久琛,陈全,郑文立,刘志强,龙宇,王堃,李超,过敏意, [*<u>区块链原理及其核心技术</u>*](), 计算机学报, 2021. 
 
 
